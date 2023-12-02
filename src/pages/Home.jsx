@@ -46,7 +46,7 @@ function Home() {
       <div className='mt-5 pt-3 container-fluid'>
         <div className='d-flex justify-content-center'>
             <Form.Group controlId="searchInput" className="mb-4 mt-5 w-50">
-              <Form.Control type="text" placeholder="Search Product"  />
+              <Form.Control onChange={handleSearchChange} type="text" placeholder="Search Product"  />
             </Form.Group>
         </div>
 
